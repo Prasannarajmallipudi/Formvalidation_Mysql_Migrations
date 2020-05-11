@@ -44,7 +44,6 @@ the Django forms
 * Django Form Class
 * Django Form Validation
 
-![Github Image](Djangoforms.jpg)
 ![GitHub Logo](/images/Djangoforms.jpg)
 
 Form validation means verification of form data. Form validation is an important process when we are using model forms. When we validate our form data, we are actually converting them to python datatypes. Then we can store them in the database.
@@ -180,6 +179,7 @@ Note : Run the server before run these commands in project location into Command
 ### Run the Server
 
 ```python manage.py runserver 2422```
+
 Open the browser and Type : localhost:2422/Reg
 
 ![GitHub Logo](/images/Reg.png)
@@ -188,9 +188,6 @@ Open the browser and Type : localhost:2422/Reg
 
 
 ____
-### References
-
-[Email Sending Using Django Reference Link](https://docs.djangoproject.com/en/3.0/topics/email/)
 
 
 
