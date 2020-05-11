@@ -45,6 +45,7 @@ the Django forms
 * Django Form Validation
 
 ![Github Image](Django-forms.JPG)
+![GitHub Logo](/images/logo.png)
 
 Form validation means verification of form data. Form validation is an important process when we are using model forms. When we validate our form data, we are actually converting them to python datatypes. Then we can store them in the database.
 The is_valid() method is used to perform validation for each field of the form, it is defined in Django Form class. It returns True if data is valid and place all data into a cleaned_data attribute.
@@ -175,6 +176,13 @@ Note : Run the server before run these commands in project location into Command
      ```python manage.py makemigrations```
      and
      ```python manage.py migtare```
+
+### Run the Server
+
+```python manage.py runserver 2422```
+Open the browser and Type : localhost:2422/Reg
+
+![GitHub Logo](/images/logo.png)
 
 
 
