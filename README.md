@@ -1,7 +1,6 @@
-# Formvalidation_Mysql_Migrations
+# Form Validation
 
-## Form Validations
-
+## Forms
 Forms are a collection of HTML elements to take input from the user. In simple words, whenever you give any kind of instruction or input on web, that is known as a form.
 The input elements come inside ```<form></form>``` tags. It is collectively called as HTML form. 
 Some daily examples of forms can include:
