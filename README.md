@@ -20,7 +20,7 @@ The ``` <form> ``` tag has two important attributes to be specified:
 This attribute specifies where to submit the form data.It can be left blank but in that case, the data will be sent to the same URL. Otherwise, you can specify a URL. This attribute just tells the form where to submit the data.
 **Example:
 
-```python
+```html
 <form action="{% url 'Reg' %}"> 
 </form>
 ```
@@ -28,7 +28,7 @@ This attribute specifies where to submit the form data.It can be left blank but 
 This attribute specifies how to submit data. There are GET and POST values for the same. You should use capital values for this attribute.
 **Example:
 
-```python
+```html
 <form action="" method="POST/GET>
 </form>
 ```
@@ -172,10 +172,9 @@ Index template that shows form and errors.
 ```
 
 Note : Run the server before run these commands in project location into Command prompt
-     ```cmd
-     python manage.py makemigrations 
-     python manage.py migtare
-     ```
+     ```python manage.py makemigrations```
+     and
+     ```python manage.py migtare```
 
 
 
