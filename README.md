@@ -180,6 +180,7 @@ Note : Run the server before run these commands in project location into Command
 ```python manage.py runserver 2422```
 
 Open the browser and Type : localhost:2422/Reg
+
 ![GitHub Logo](/images/Reg.png)
 
 
