@@ -193,6 +193,14 @@ Open the browser and Type : localhost:2422/Reg
 * Goto MySQL Admin Button click to open the ```phpmyadmin``` Page
 Web Application using ``django-admin``, creating the MySQL database and then connecting the web application to the database.
 
+Open phpmyadmin page and Create a Database.
+DataBase Name : task_reg
+![GitHub Logo](/images/mysqlpage.png)
+
+And, Click to create button after Created data base
+
+![GitHub Logo](/images/mysqlpage.png)
+
 Open the project and Goto setting.py File 
 edit your settings.py
 * Add ENGINE
