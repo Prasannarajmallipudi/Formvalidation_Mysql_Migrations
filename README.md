@@ -175,6 +175,8 @@ Note : Run the server before run these commands in project location into Command
      and
      ```python manage.py migtare```
 
+____
+
 ### Run the Server
 
 ```python manage.py runserver 2422```
@@ -183,6 +185,7 @@ Open the browser and Type : localhost:2422/Reg
 
 ![GitHub Logo](/images/Reg.png)
 
+____
 
 ## How To Create a Django App and Connect it to a Database
 * First the check XAMPP Server installed or not in your local machine.
@@ -194,14 +197,19 @@ Open the browser and Type : localhost:2422/Reg
 Web Application using ``django-admin``, creating the MySQL database and then connecting the web application to the database.
 
 Open phpmyadmin page and Create a Database.
+
 DataBase Name : task_reg
+
 ![GitHub Logo](/images/createdb.png)
 
 And, Click to create button after Created data base
 
 ![GitHub Logo](/images/afterdbcreation.png)
 
+____
+
 Open the project and Goto setting.py File 
+
 edit your settings.py
 * Add ENGINE
 * NAME
@@ -239,12 +247,9 @@ After open the ```phpmyadmin``` Page and Table is created and after Registerd fo
 
 
 
-
-
-
-
-
 ____
+
+
 
 
 
