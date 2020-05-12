@@ -184,7 +184,7 @@ Open the browser and Type : localhost:2422/Reg
 ![GitHub Logo](/images/Reg.png)
 
 
-#### How To Create a Django App and Connect it to a Database
+## How To Create a Django App and Connect it to a Database
 * First the check XAMPP Server installed or not in your local machine.
 * If not installed install now
 	*Software Download link is : [GitHub](https://www.apachefriends.org/download.html)
@@ -216,6 +216,17 @@ DATABASES = {
 }
 ```
 Save the file.
+
+Open command prompt in project location run the commands is:
+```python manage.py makemigrations```
+     and
+```python manage.py migtare```
+and Running the server 
+``` python manage.py runserver 2422 ```
+
+After open the ```phpmyadmin``` Page and Table is created and after Registerd form fill the data and click the register button data will be stored in Data Base Table.
+
+![GitHub Logo](/images/Reg.png)
 
 
 
