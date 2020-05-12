@@ -180,8 +180,45 @@ Note : Run the server before run these commands in project location into Command
 ```python manage.py runserver 2422```
 
 Open the browser and Type : localhost:2422/Reg
-
 ![GitHub Logo](/images/Reg.png)
+
+
+#### How To Create a Django App and Connect it to a Database
+* First the check XAMPP Server installed or not in your local machine.
+* If not installed install now
+	*Software Download link is : [GitHub](https://www.apachefriends.org/download.html)
+
+* After installation completed Start the ``Apache`` and ``MySQL``
+* Goto MySQL Admin Button click to open the ```phpmyadmin``` Page
+Web Application using ``django-admin``, creating the MySQL database and then connecting the web application to the database.
+
+Open the project and Goto setting.py File 
+edit your settings.py
+* Add ENGINE
+* NAME
+* USER
+* PASSWORD
+* PORT
+* HOST
+ 
+// settings.py
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'task_reg',
+        'USER': 'root',
+        'PASSWORD':'',
+        'PORT':'',
+        'HOST':'',
+    }
+}
+```
+Save the file.
+
+
+
+
 
 
 
