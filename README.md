@@ -195,11 +195,11 @@ Web Application using ``django-admin``, creating the MySQL database and then con
 
 Open phpmyadmin page and Create a Database.
 DataBase Name : task_reg
-![GitHub Logo](/images/mysqlpage.png)
+![GitHub Logo](/images/createdb.png)
 
 And, Click to create button after Created data base
 
-![GitHub Logo](/images/mysqlpage.png)
+![GitHub Logo](/images/afterdbcreation.png)
 
 Open the project and Goto setting.py File 
 edit your settings.py
