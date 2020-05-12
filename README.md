@@ -226,7 +226,7 @@ and Running the server
 
 After open the ```phpmyadmin``` Page and Table is created and after Registerd form fill the data and click the register button data will be stored in Data Base Table.
 
-![GitHub Logo](/images/Reg.png)
+![GitHub Logo](/images/mysqlpage.png)
 
 
 
