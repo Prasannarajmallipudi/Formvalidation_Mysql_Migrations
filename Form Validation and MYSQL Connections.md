@@ -44,10 +44,7 @@ It returns True if data is valid and place all data into a cleaned_data attribut
 * Form validation means verification of form data.
 * Form validation is an important process when we are using model forms. 
 * When we validate our form data, we are actually converting them to python datatypes. 
-*Then we can store them in the database.
-
-The ```is_valid()``` method is used to perform validation for each field of the form, it is defined in Django Form class.
-It returns True if data is valid and place all data into a cleaned_data attribute.
+* Then we can store them in the database.
 
 the Django forms
 * Forms
@@ -163,7 +160,7 @@ Save the file.
 Django provides the various commands that are used to perform migration related tasks. After creating a model, we can use these commands.
 
 * **makemigrations :** It is used to create a migration file that contains code for the tabled schema of a model.
-* ** migrate :** It creates table according to the schema defined in the migration file.
+* **migrate :** It creates table according to the schema defined in the migration file.
 
 Open command prompt in project location run the commands is:
 ```python manage.py makemigrations```
